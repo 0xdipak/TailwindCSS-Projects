@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Single Product</title>
+  </head>
+  <body>
+    <!-- --- container --- -->
+    <div class="w-full px-5 py-8 flex flex-col gap-6 lg:p-20 xl:px-28 xl:py-16">
+      <div class="flex flex-row items-center">
+        <span class="font-sans font-semibold text-pgreen text-xs uppercase">
+          Home
+        </span>
+        &nbsp; &#62; &nbsp;
+        <span class="font-sans font-semibold text-pgreen text-xs uppercase">
+          Furniture
+        </span>
+        &nbsp; &#62; &nbsp;
+        <span class="font-sans font-semibold text-black text-xs uppercase">
+          Aliquam ododiam
+        </span>
+      </div>
+      <!-- --- product container ---  -->
+      <div class="flex flex-col gap-6 lg:flex-row">
+        <!-- --- product image ---  -->
+        <div class="relative xl:w-1/2">
+          <img src="./images/product.webp" />
+          <span
+            class="font-sans bg-pgreen text-white w-fit px-2 py-1 uppercase text-xs font-bold absolute top-4 left-4"
+            >sale!</span
+          >
+        </div>
+        <!-- --- product details ---  -->
+        <div class="flex flex-col gap-7 xl:w-1/2 pr-14">
+          <h2 class="font-sans font-bold text-zinc-900 text-3xl">Aliquam Ododiam</h2>
+          <div class="relative">
+            <h3 class="text-zinc-800 font-bold text-xl">$69.00</h3>
+            <span class="text-zinc-500 line-through font-bold text-sm absolute top-1 left-[70px]">$79.00</span>
+          </div>
+          <div class="space-y-6">
+            <p class="font-sans font-base text-zinc-900 font-normal">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
+              error molestias rem officiis vero earum quod, suscipit veritatis
+              aperiam quaerat quia reprehenderit ea illum, doloremque tenetur
+              tempore incidunt ipsum unde? Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Pariatur error molestias rem
+              officiis vero earum quod, suscipit veritatis aperiam quaerat quia
+              reprehenderit ea illum, doloremque tenetur tempore incidunt ipsum
+              unde?
+            </p>
+            <p class="font-sans font-base text-zinc-900 font-normal">
+              tempore incidunt ipsum unde? Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Pariatur error molestias rem
+              officiis vero earum quod, suscipit veritatis aperiam quaerat quia
+              reprehenderit ea illum, doloremque tenetur tempore incidunt ipsum
+              unde?
+            </p>
+          </div>
+          <div class="border-b border-zinc-400"></div>
+          <button class="text-white bg-pgreen w-fit px-10 py-4 font-sans font-bold lg:w-3/5 xl:w-2/5">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
